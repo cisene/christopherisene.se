@@ -86,6 +86,8 @@ For the nerdiness in me, here is airports I have visited or set foot on.
 * SFO, San Francisco, USA
 * TXL, Berlin Tegel, Germany
 * UTP, U-Tapao, Rayong, Thailand
+* GRO, Girona, Spain
+* BCN, Barcelona, Spain
 
 
 
