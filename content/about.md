@@ -2,7 +2,7 @@
 
 ## Christopher Isene
 
-This is my central point on the Internet, this is where you find me.
+This is [my](https://christopherisene.se/) central point on the Internet, this is where you find me.
 
 I’m a father, husband, coder, tinkerer, maker and collector of odd hardware.
 

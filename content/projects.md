@@ -13,6 +13,7 @@ Some of them here;
 
 * B19 OPML Collections
   * [Find That Pod](https://b19.se/data/opml/findthatpod/)
+  * [Earbuds Podcast Recommendations](https://b19.se/data/opml/earbuds/)
   * [Mirrored OPML-files from all over the internet](https://b19.se/data/opml/mirrored/)
   * [PodcastIndex themed OPML](https://b19.se/data/opml/podcastindex/)
 

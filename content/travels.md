@@ -16,7 +16,7 @@ I will try to list and summarize the countries I've been to and also list the on
 * Finland, been there a few times, rural areas are beautiful, latest visit winter 2018.
 * Croatia, been there once, warm and welcoming atmosphere, good food and friendliness, latest visit 2016.
 * Norway, been there lots of times, half my family are Norwegians, kind of expensive, latest visit 2012.
-* Spain, been there a few times, really enjoy the food and the language, latest visit 2010.
+* Spain, been there a few times, really enjoy the food and the language, latest visit 2025.
 * Lithuania, been there once, Kaunas is an interesting city, nice people, latest visit 2007.
 * Denmark, been there a few times, have not spent that much time in country but people seems nice, latest visit 2006.
 * USA, been there twice, latest visit 2000.

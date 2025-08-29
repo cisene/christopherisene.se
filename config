@@ -1,0 +1,24 @@
+baseURL = "https://christopherisene.se/"
+languageCode = "en-us"
+title = "Christopher Isene"
+
+[params]
+    description = "My home at the Internet"
+
+[menu]
+    [[menu.main]]
+        name = "home"
+        title = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "post"
+        title = "Blog"
+        url = "/post"
+        weight = 2
+    [[menu.main]]
+        name = "about"
+        title = "About"
+        url = "/about"
+        weight = 3
+
