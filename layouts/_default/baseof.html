@@ -2,12 +2,12 @@
 <html lang="{{ $.Site.LanguageCode }}">
   <head>
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
     {{ partial "head.html" . }}
+
   </head>
 
   <body>
-    {{ partial "header.html" . }}
-
     {{ partial "navigation.html" . }}
 
     <main class="main">
