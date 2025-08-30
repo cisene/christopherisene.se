@@ -9,14 +9,14 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-enableEmoji: true
-pygmentsUseClasses: true
+enableEmoji: false
+pygmentsUseClasses: false
 mainsections: ["home", "contact"]
 
 defaultContentLanguage: en
 
 minify:
-  disableXML: false
+  disableXML: true
   minifyOutput: false
 
 languages:
@@ -44,10 +44,25 @@ languages:
         url: /current-and-past/
         weight: 3
 
+      - name: projects
+        title: Projects
+        url: /projects/
+        weight: 4
+
+      - name: skills
+        title: Skills
+        url: /skills/
+        weight: 5
+
+      - name: travels
+        title: Travels
+        url: /travels/
+        weight: 6
+
 outputs:
   home:
   - HTML
-  - RSS
+  #- RSS
   - JSON
 
 params:
@@ -58,17 +73,18 @@ params:
   defaultTheme: auto
   disableThemeToggle: true
   ShowShareButtons: false
-  ShowReadingTime: true
+  ShowReadingTime: false
   disableSpecial1stPost: true
-  displayFullLangName: true
+  displayFullLangName: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
-  ShowAllPagesInArchive: true
-  ShowPageNums: true
-  ShowToc: true
+  ShowAllPagesInArchive: false
+  ShowPageNums: false
+  ShowToc: false
   comments: false
+  uglyURLs: false
 
   profileMode:
     enabled: false
@@ -78,10 +94,12 @@ params:
     # imageWidth: 120
     # imageHeight: 120
     buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+      #- name: Archives
+      #  url: archives
+      #- name: Tags
+      #  url: tags
+
+
 
 markup:
   goldmark:
