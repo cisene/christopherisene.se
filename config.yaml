@@ -82,6 +82,7 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: false
   ShowPageNums: false
+  showPowerBy: false
   ShowToc: false
   comments: false
   uglyURLs: false
