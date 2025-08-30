@@ -4,12 +4,10 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
     <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="{{ "/css/style.css" }}">
-    <link rel="shortcut icon" href="{{ "/images/favicon.ico" }}" type="image/x-icon" />
 
 {{ if .Site.Params.opengraph }}
-  {{ range $element := .Site.Params.opengraph }}
-    <meta href="og:{{ $element.key }}" content="{{ $element.value }}" />
+  {{ range $key, $val := .Site.Params.opengraph }}
+    <meta href="og:{{ $key }}" content="{{ $val }}" />
   {{ end }}
 
     <meta property="og:type" content="website" />
@@ -23,3 +21,6 @@
     <meta property="og:image:alt" content="" />
     <meta property="og:locale" content="en_US" />
 {{ end }}
+
+    <link rel="stylesheet" href="{{ "/css/style.css" }}">
+    <link rel="shortcut icon" href="{{ "/images/favicon.ico" }}" type="image/x-icon" />
