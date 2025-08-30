@@ -4,7 +4,7 @@ layout = "single"
 description = "Who am I and why it doesn't matter, for the most part."
 +++
 
-# Skills
+
 
 It's a little weird to jot down skills and grade them, so I'll just write a little blurb about what and why. Mostly I dive into technology just for the fun of it, for my own pleasure and curiosity, sometimes it is some new emerging technology that seems cool&#8230; But here goes .. in no particular order.
 

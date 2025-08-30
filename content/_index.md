@@ -4,7 +4,9 @@ layout = "single"
 description = "Who am I and why it doesn't matter, for the most part."
 +++
 
-# Christopher Isene
+
+
+
 
 This is [my](https://christopherisene.se/) central point on the Internet, this is where you find me.
 

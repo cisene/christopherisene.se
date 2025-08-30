@@ -4,7 +4,6 @@ layout = "single"
 description = "Who am I and why it doesn't matter, for the most part."
 +++
 
-# Contact
 
 There is several ways to contact me, but be sure it is for the right reason.
 

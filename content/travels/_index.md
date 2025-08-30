@@ -4,7 +4,7 @@ layout = "single"
 description = "Who am I and why it doesn't matter, for the most part."
 +++
 
-# Travels
+
 
 I enjoy traveling and experiencing other cultures, cousines and ways of life.
 I will try to list and summarize the countries I've been to and also list the ones I want to visit.

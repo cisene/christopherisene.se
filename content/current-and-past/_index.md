@@ -4,7 +4,6 @@ layout = "single"
 description = "Who am I and why it doesn't matter, for the most part."
 +++
 
-# Current and Past
 
 ## Current:
 

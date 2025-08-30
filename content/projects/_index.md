@@ -4,7 +4,6 @@ layout = "single"
 description = "Who am I and why it doesn't matter, for the most part."
 +++
 
-# Projects
 
 
 I always have stuff going on, working on thousand things at once ..
