@@ -87,25 +87,26 @@ params:
   comments: false
   uglyURLs: false
 
+  google-site-verification: "j1BZfIlWMVNs--J79vYca4zfq-4pL3leEPe8FvHj9b4"
+
   opengraph:
     type: website
     title: Christopher Isene
     description: Here, now and present
     url: https://christopherisene.se/
     site_name: Christopher Isene
-
+    locale: en_US
     image:
       content:
       width:
       height:
       alt:
-    locale: en_US
 
   profileMode:
     enabled: false
     title: FancyTrinket
     imageUrl: "#"
-    imageTitle: -
+    imageTitle: ""
     # imageWidth: 120
     # imageHeight: 120
     buttons:
@@ -114,7 +115,6 @@ params:
       #- name: Tags
       #  url: tags
 
-  google-site-verification: "j1BZfIlWMVNs--J79vYca4zfq-4pL3leEPe8FvHj9b4"
 
 
 markup:
