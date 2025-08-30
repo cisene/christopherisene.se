@@ -63,7 +63,7 @@ outputs:
   home:
   - HTML
   #- RSS
-  - JSON
+  #- JSON
 
 params:
   env: production
