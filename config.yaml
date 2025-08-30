@@ -1,7 +1,48 @@
-baseURL = "https://christopherisene.se/"
-languageCode = "en-us"
-title = "Christopher Isene"
+baseURL: https://christopherisene.se/
+languageCode: en-us
+title: Christopher Isene
 
+enableGitInfo: true
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["home", "contact"]
+
+defaultContentLanguage: en
+
+minify:
+  disableXML: false
+  minifyOutput: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+      - name: home
+        title: Home
+        url: /
+        weight: 1
+
+      - name: contact
+        title: Contact
+        url: /contact/
+        weight: 2
+
+      - name: current-and-past
+        title: Current and Past
+        url: /current-and-past/
+        weight: 3
 
 outputs:
   home:
@@ -9,15 +50,11 @@ outputs:
   - RSS
   - JSON
 
-minify:
-  disableXML: false
-  minifyOutput: false
-
-
 params:
+  env: production
   description: My home at the Internet
   author: Christopher Isene
-  env: production
+
   defaultTheme: auto
   disableThemeToggle: true
   ShowShareButtons: false
@@ -33,28 +70,18 @@ params:
   ShowToc: true
   comments: false
 
-
-defaultContentLanguage: en
-languages:
-  en:
-    languageName: "English"
-    weight: 1
-  menu:
-    main:
-    - name: home
-      title: Home
-      url: /
-      weight: 1
-
-    - name: contact
-      title: Contact
-      url: /contact/
-      weight: 2
-
-    - name: current-and-past
-      title: Current and Past
-      url: /current-and-past/
-      weight: 3
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
 
 markup:
   goldmark:
