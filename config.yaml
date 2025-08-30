@@ -23,10 +23,10 @@ languages:
   en:
     languageName: "English"
     weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
+    #taxonomies:
+    #  category: categories
+    #  tag: tags
+    #  series: series
     menu:
       main:
       - name: home
@@ -99,8 +99,6 @@ params:
       #  url: archives
       #- name: Tags
       #  url: tags
-
-
 
 markup:
   goldmark:
