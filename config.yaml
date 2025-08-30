@@ -62,8 +62,9 @@ languages:
 outputs:
   home:
   - HTML
-  #- RSS
-  #- JSON
+  contact:
+  - HTML
+
 
 params:
   env: production
@@ -97,18 +98,18 @@ params:
     site_name: Christopher Isene
     locale: en_US
     image:
-      content:
-      width:
-      height:
-      alt:
+      content: images/christopher-isene-20140906.jpg
+      width: 960
+      height: 960
+      alt: Silly Selfie
 
   profileMode:
     enabled: false
-    title: FancyTrinket
-    imageUrl: "#"
-    imageTitle: ""
-    # imageWidth: 120
-    # imageHeight: 120
+    title: Silly Selfie
+    imageUrl: image/christopher-isene-20140906.jpg
+    imageTitle: "Silly selfie"
+    imageWidth: 960
+    imageHeight: 960
     buttons:
       #- name: Archives
       #  url: archives
