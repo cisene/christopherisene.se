@@ -1,7 +1,8 @@
----
-title: "Skills"
-template: "single"
----
++++
+title = 'Christopher Isene - Skills'
+layout = "single"
+description = "Who am I and why it doesn't matter, for the most part."
++++
 
 # Skills
 

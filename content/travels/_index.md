@@ -1,13 +1,15 @@
----
-title: "Travels"
-template: "single"
----
++++
+title = 'Christopher Isene - Travels'
+layout = "single"
+description = "Who am I and why it doesn't matter, for the most part."
++++
 
 # Travels
 
 I enjoy traveling and experiencing other cultures, cousines and ways of life.
 I will try to list and summarize the countries I've been to and also list the ones I want to visit.
 
+* Spain, latest visit in May 2025.
 * Thailand, latest visit winter 2024/2025.
 * China, latest visit winter 2024/2025.
 * Germany, been there a few times, both as a child and later as an adult, latest visit May 2023.
@@ -16,7 +18,6 @@ I will try to list and summarize the countries I've been to and also list the on
 * Finland, been there a few times, rural areas are beautiful, latest visit winter 2018.
 * Croatia, been there once, warm and welcoming atmosphere, good food and friendliness, latest visit 2016.
 * Norway, been there lots of times, half my family are Norwegians, kind of expensive, latest visit 2012.
-* Spain, been there a few times, really enjoy the food and the language, latest visit 2025.
 * Lithuania, been there once, Kaunas is an interesting city, nice people, latest visit 2007.
 * Denmark, been there a few times, have not spent that much time in country but people seems nice, latest visit 2006.
 * USA, been there twice, latest visit 2000.
@@ -43,7 +44,8 @@ There are countries I have heard lots of good things about and I have listed the
 * Cambodia, see Vietnam
 * China, vast country with lots of variation between different ends of the country.
 * South Korea, see Vietnam
-* India, culture, food and people, urban and rural life.
+s* India, culture, food and people, urban and rural life, heaps of friends.
+* Philippines, culture, food and people, heaps of friends.
 * Mexico, culture, food and people.
 * Cuba, culture, food and people.
 
@@ -59,6 +61,7 @@ There are a few countries I will not travel to nor set foot on, because reasons.
 * Iraq, still too volatile.
 * Iran, would be interesting with another regime.
 * Israel, nope.
+* USA, not with current administration. Hard no.
 
 
 
@@ -68,12 +71,14 @@ For the nerdiness in me, here is airports I have visited or set foot on.
 * AGP, Malaga, Spain
 * AMS, Schipol, The Netherlands
 * ARN, Stockholm Arlanda, Sweden
+* BCN, Barcelona, Spain
 * BER, Berlin Brandenburg, Germany
 * BKK, Bangkok Suvarnabhumi, Thailand
 * BMA, Stockholm Bromma, Sweden
 * CNX, Chiang Mai, Thailand
 * DBV, Dubrovnik, Croatia
 * DOH, Doha, Qatar
+* GRO, Girona, Spain
 * HEL, Helsinki, Finland
 * HHQ, Hua Hin, Thailand
 * KUN, Kaunas, Lithuania
@@ -86,8 +91,6 @@ For the nerdiness in me, here is airports I have visited or set foot on.
 * SFO, San Francisco, USA
 * TXL, Berlin Tegel, Germany
 * UTP, U-Tapao, Rayong, Thailand
-* GRO, Girona, Spain
-* BCN, Barcelona, Spain
 
 
 

@@ -1,7 +1,8 @@
----
-title: "Projects"
-template: "single"
----
++++
+title = 'Christopher Isene - Projects'
+layout = "single"
+description = "Who am I and why it doesn't matter, for the most part."
++++
 
 # Projects
 
