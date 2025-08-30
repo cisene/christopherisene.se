@@ -1,0 +1,74 @@
+baseURL = "https://christopherisene.se/"
+languageCode = "en-us"
+title = "Christopher Isene"
+
+
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+minify:
+  disableXML: false
+  minifyOutput: false
+
+
+params:
+  description: My home at the Internet
+  author: Christopher Isene
+  env: production
+  defaultTheme: auto
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  comments: false
+
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+  menu:
+    main:
+    - name: home
+      title: Home
+      url: /
+      weight: 1
+
+    - name: contact
+      title: Contact
+      url: /contact/
+      weight: 2
+
+    - name: current-and-past
+      title: Current and Past
+      url: /current-and-past/
+      weight: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+
+modules:
+  mounts:
+  - source: static
+  - target: static
