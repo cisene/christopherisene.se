@@ -13,6 +13,8 @@ enableEmoji: false
 pygmentsUseClasses: false
 mainsections: ["home", "contact"]
 
+disableKinds: ["taxonomy","taxonomyTerm","RSS"]
+
 defaultContentLanguage: en
 
 minify:
