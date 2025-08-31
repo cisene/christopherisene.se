@@ -1,0 +1,48 @@
+{
+
+  "id": "https://christopherisene.se/",
+  "name":"Christopher Isene",
+  "description":"Information about Christopher Isene",
+  "display":"standalone",
+  "orientation": "any",
+  "start_url":"/",
+  "background_color":"#ffffff",
+  "theme_color":"#0a1922",
+  "lang": "en",
+  "dir": "ltr",
+  "icons":[
+    {
+      "src":"https://canada1.discourse-cdn.com/flex036/uploads/gohugo/optimized/2X/b/b91c8ab3a3c1c8679127cf049b46fa919e9e0e5c_2_512x512.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    },
+    {
+      "src":"https://canada1.discourse-cdn.com/flex036/uploads/gohugo/optimized/2X/b/b91c8ab3a3c1c8679127cf049b46fa919e9e0e5c_2_512x512.png",
+      "sizes":"512x512",
+      "type":"image/png",
+      "purpose":"maskable"
+    }
+  ],
+  "shortcuts":[
+    {
+      "name":"Create a new Topic",
+      "short_name":"New Topic",
+      "url":"/new-topic"
+    },
+    {
+      "name":"Inbox",
+      "short_name":"Inbox",
+      "url":"/my/messages"
+    },
+    {
+      "name":"Bookmarks",
+      "short_name":"Bookmarks",
+      "url":"/my/activity/bookmarks"
+    },
+    {
+      "name":"Top",
+      "short_name":"Top",
+      "url":"/top"
+    }
+  ]
+}

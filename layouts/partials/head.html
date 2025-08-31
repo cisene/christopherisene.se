@@ -1,9 +1,16 @@
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
-    <meta name="robots" content="index, follow">
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow"/>
+    <meta name="bingbot" content="index, follow" />
+    <meta name="Slurp" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1" />
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+    <meta name="author" content="{{ .Site.Author }}" />
+    <meta name="language" content="English" />
+    <meta name="keywords" content="Christopher, Isene, Consultant, Tinkerer, Hacker" />
 
 {{ if .Site.Params.opengraph }}
   {{ range $key, $val := .Site.Params.opengraph }}
@@ -23,9 +30,18 @@
     <meta property="og:image:alt" content="" />
     <meta property="og:locale" content="en_US" />
 {{ end }}
+    
+    <meta name="google" content="nopagereadaloud" />
+    <meta name="googlebot" content="nosnippet" />
+    <meta name="googlebot" content="notranslate" />
+    <meta name="googlebox" content="noimageindex" />
+    <meta name="googlebot-news" content="nosnippet" />
+
+    <meta http-equiv="content-security-policy" content="default-src https:" />
 
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" type="image/x-icon" />
 
     <link rel="canonical" itemProp="url" href="{{ .Site.BaseURL }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml">
+    <link rel="manifest" href="{{ .Site.BaseURL }}manifest.webmanifest">

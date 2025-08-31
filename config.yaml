@@ -1,6 +1,7 @@
 baseURL: https://christopherisene.se/
 languageCode: en-us
 title: Christopher Isene
+author: Christopher Isene
 
 enableGitInfo: true
 
