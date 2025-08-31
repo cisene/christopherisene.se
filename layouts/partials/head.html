@@ -7,7 +7,9 @@
 
 {{ if .Site.Params.opengraph }}
   {{ range $key, $val := .Site.Params.opengraph }}
+    {{ if $key != "image" }}
     <meta href="og:{{ $key }}" content="{{ $val }}" />
+    {{ end }}
   {{ end }}
 
     <meta property="og:type" content="website" />
@@ -22,8 +24,8 @@
     <meta property="og:locale" content="en_US" />
 {{ end }}
 
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
-    <link rel="shortcut icon" href="{{ .Site.BaseURL }}/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" type="image/x-icon" />
 
     <link rel="canonical" itemProp="url" href="{{ .Site.BaseURL }}">
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}/sitemap.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml">
