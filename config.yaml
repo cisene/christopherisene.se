@@ -36,33 +36,31 @@ languages:
 
       - name: contact
         title: Contact
-        url: /contact/
+        url: /contact
         weight: 2
 
       - name: current-and-past
         title: Current and Past
-        url: /current-and-past/
+        url: /current-and-past
         weight: 3
 
       - name: projects
         title: Projects
-        url: /projects/
+        url: /projects
         weight: 4
 
       - name: skills
         title: Skills
-        url: /skills/
+        url: /skills
         weight: 5
 
       - name: travels
         title: Travels
-        url: /travels/
+        url: /travels
         weight: 6
 
 outputs:
   home:
-  - HTML
-  contact:
   - HTML
 
 
@@ -89,6 +87,8 @@ params:
   uglyURLs: false
 
   google-site-verification: "j1BZfIlWMVNs--J79vYca4zfq-4pL3leEPe8FvHj9b4"
+  MobileOptimized: width
+  HandheldFriendly: true
 
   opengraph:
     type: website
