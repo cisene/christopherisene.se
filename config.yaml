@@ -30,37 +30,38 @@ languages:
     #  category: categories
     #  tag: tags
     #  series: series
-    menu:
-      main:
-      - name: home
-        title: Home
-        url: /
-        weight: 1
 
-      - name: contact
-        title: Contact
-        url: /contact
-        weight: 2
+menus:
+  main:
+  - name: home
+    title: Home
+    url: /
+    weight: 1
 
-      - name: current-and-past
-        title: Current and Past
-        url: /current-and-past
-        weight: 3
+  - name: contact
+    title: Contact
+    url: /contact
+    weight: 2
 
-      - name: projects
-        title: Projects
-        url: /projects
-        weight: 4
+  - name: current-and-past
+    title: Current and Past
+    url: /current-and-past
+    weight: 3
 
-      - name: skills
-        title: Skills
-        url: /skills
-        weight: 5
+  - name: projects
+    title: Projects
+    url: /projects
+    weight: 4
 
-      - name: travels
-        title: Travels
-        url: /travels
-        weight: 6
+  - name: skills
+    title: Skills
+    url: /skills
+    weight: 5
+
+  - name: travels
+    title: Travels
+    url: /travels
+    weight: 6
 
 outputs:
   home:
