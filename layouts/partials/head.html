@@ -14,7 +14,9 @@
 
 {{ if .Site.Params.opengraph }}
   {{ range $key, $val := .Site.Params.opengraph }}
-    {{ if $key != "image" }}
+    {{ if $key := "image" }}
+    <meta href="og:{{ $key }}" content="{{ $val }}" />
+    {{ else }}
     <meta href="og:{{ $key }}" content="{{ $val }}" />
     {{ end }}
   {{ end }}
