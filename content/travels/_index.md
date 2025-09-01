@@ -44,7 +44,7 @@ There are countries I have heard lots of good things about and I have listed the
 * Cambodia, see Vietnam
 * China, vast country with lots of variation between different ends of the country.
 * South Korea, see Vietnam
-s* India, culture, food and people, urban and rural life, heaps of friends.
+* India, culture, food and people, urban and rural life, heaps of friends.
 * Philippines, culture, food and people, heaps of friends.
 * Mexico, culture, food and people.
 * Cuba, culture, food and people.
