@@ -1,0 +1,5 @@
+
+baseURL = 'https://christopherisene.se/'
+languageCode = 'en-us'
+title = 'Christopher Isene'
+theme = 'hugo-resume'
