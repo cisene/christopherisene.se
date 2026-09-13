@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/cisene
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://christopherisene.se
+  * I am cisene (https://keybase.io/cisene) on keybase.
+  * I have a public key with fingerprint E245 1C5C 5CF4 7961 006F  6CA7 ED7B A890 ABED 4182
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ecd5979680bb59ff653759670c7db28325d9f986c0011e87b7906c57e15893f70a",
+      "fingerprint": "e2451c5c5cf47961006f6ca7ed7ba890abed4182",
+      "host": "keybase.io",
+      "key_id": "ed7ba890abed4182",
+      "kid": "0101ecd5979680bb59ff653759670c7db28325d9f986c0011e87b7906c57e15893f70a",
+      "uid": "a9a7282ddc3bec7f2447d5f9fd095700",
+      "username": "cisene"
+    },
+    "merkle_root": {
+      "ctime": 1672013187,
+      "hash_meta": "c109c025064ef2f64d054ae8d58248eb2b0cc7aec8ac8d4c0b1577e49b79b156",
+      "seqno": 23767341
+    },
+    "revoke": {
+      "sig_ids": [
+        "36d8b4456bfc281866962096a504e265f3797577a0e6f18e76ad4c3f2836cfbf0f"
+      ]
+    },
+    "service": {
+      "hostname": "christopherisene.se",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1672013203,
+  "expire_in": 157680000,
+  "prev": "266970f388632b58576867b8098190cb483981824a04d8968460b252e5e22fd7",
+  "seqno": 117,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMPUAnicrVNpbBVVGG2LpeGlxTYFGxC1DIK0KXjnztxlHosgIZQEElIIKIuPWe7w
+pn28eczMa2ngUZRQJIQlrRYECxSprEUjQbSWGErZxFBThJS0oLIUoilxqbIo4p1G
+Ykz86cyPuXdyzvnOd757WzL6JAWSu5ft3XSge+IbyeeaE/Ekfe/N6mWCZhvlQnCZ
+UMJ6PyxiMNcLlViGEBSACESmG0ghCqZA05BimhhJBCmYAJ0YGqQSRIZiKhTrAIgi
+o0QjCsA6IkxEVJFMAlShQDCt6CLmxBwr6nFZBmUk6oi/psyVRQCwiXWVMINoKlWA
+qjFDFinkxLDt+gxuTlNdNtqy+T++CfXa+w/8/+w73iunKiqBFBqGLmlMJyaUZWIg
+UzENoCACgA90mRNVFzOO1i2XRZmQKBAWM6ckwkKObXt+tLpn+QAREwhESaSEt6e6
+4dBi5qk+TwSKDiACWGYmNLFsACSrjBqIQpkyDWpA14nKdKrq1JB1oImIECYr3Dlf
+Yu7CZUuithCEEsFEkkVuwWGldgnzq7vWIp6aKwTnCRI2qCbLCGumDqlIMVYwBApW
+EZAZxMiUiEK4tgoYNkXKCFZ5PcnkqWHd1ExgCgsSfjWn1NJ7xf0xPW4/7FiuZ8fC
+zOkNYrTLuLOYY3u2bkc4IOx5MTfo5+OVx3xGGdNCf2uFNCtq8LPCGaXMcS07yvPi
+yH9HB4FUILClMcthIctHIMLHzB+/DivlkpC3RIApUYolqCHqAzDRKFCoqABdk6nE
+VzxXFcgG5YdExkCDCDLEIDQN8k+WosjH5KmLuChPMKp6cYfPtvn4/CeSkgNJfVNT
+/FuUFOiX+fhu1UWefDTpwfkJ40H+utAvj27UZ+9avzXQuT5yfO3utiXlT39hgiNv
+psYb8moXJOK3X1Aquy5MPryuduCAlTOK37q4rWvE+PCnPSPLWMPc6ImU1D/nrs74
+umhX66jd5bMeNlQtPGrNuN4zpm7FpQtny9ObFhanHbsyqR1N7Zy2YeUDkH16zpiD
+4RGBirs7hrfvnrhyTvbJB9Karlf7zPkNZKZ9Q80xy+uLNjvHaoxIY36w7+qfaurQ
+kCvi2vz7eu4fa9NzLtZ2FA9PeD0nZ2ZVmzMGpZ25HHWGDRidqPrx2rVK54MhOY46
+ZFakvbGt6GzDx1qK/c6vx/ZWbLiRVV0kD/v8h1dePF9ZN+gAWtpcU/9hS17BBmn/
+iXfvtt6buq9QLc7Z0vRVc/e4Q9d/vp/Z2r7j3sxvK7Z/0vftVaFdA93c5GdyO7qO
+T8nOrUqbN3t/d0dRZ+POtOut56/mQjDh0ked/a7qLS8paZ+tOpp1sqh4U+V73+1Z
+Pj6/Xw3FhfVV08Y2BZzsW7NunX52drWaHhh8ZXrWU2z661moVN08eEu8T2ZHbZdW
+MrT2YN3R/u+vGXAqN+vLc0rgdsX6VeOGKs+Ftxqnm8q67szftjOl7Xm8z0m9sPHq
+nYyD46Lft6jJOSO7bxaMKj3SFos37hlpv3yoMOP35XBFz6m8vMvB7rL0KfkbhcSZ
+oTf6Hx67+tT+Ew+3oxRxnf3aX7n7/Mg=
+=myl/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cisene
+
+==================================================================

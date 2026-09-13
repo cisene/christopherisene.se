@@ -1,27 +1,25 @@
-+++
-title = 'Christopher Isene - Home'
-layout = "single"
-description = "Who am I and why it doesn't matter, for the most part."
-+++
+---
+title: Home
+date: 2026-09-13T19:58:43+01:00
+draft: false
+tags: [about]
+sitemap:
+  priority : 1.0
 
+outputs:
+- html
+---
 
+Welcome to my central corner of the internet—the primary launchpad for everything I do.
 
+I’m a father, husband, coder, tinkerer, maker, and avid collector of odd hardware. My journey with technology started back in 1986 when the first computer landed in our family home, triggering a lifelong passion for programming, hardware hacking, exploring BBSs, and navigating the evolving internet.
 
+## Background & Culture
+Born in Versailles, France, in 1973 to Swedish and Norwegian parents, I grew up across borders. After spending part of my childhood in Belgium—where I became fluent in Flemish—my family relocated to Sweden. While I eventually lost my fluency, I kept a strong ear for languages: I can still distinguish Dutch from Flemish, easily understand complex Northern Norwegian dialects, and have picked up (and forgotten) bits of Finnish, Spanish, Mandarin, and Russian along the way. With a Thai wife who speaks the language to our son, learning Thai is officially next on my list. Originally a Norwegian citizen, I have been a Swedish citizen since 1983.
 
-This is [my](https://christopherisene.se/) central point on the Internet, this is where you find me.
+## Family & Life
+Life took on a whole new dimension when I met my girlfriend in 2012. Our son was born in 2013, and we were married in 2014. In 2015, our small family relocated from Eskilstuna to Västerås.
 
-I’m a father, husband, coder, tinkerer, maker and collector of odd hardware.
+## Professional Focus
+Since 2014, I’ve worked as a System Integration Consultant—a role where I truly found my calling in transforming and shuttling data across complex environments. I'm often considered the go-to guy for anything legacy, or for deciphering the intricate inner workings of systems, protocols, and technical curiosa. My day-to-day hands-on work spans managing DNS, implementing enterprise authentication solutions, running Kubernetes container platforms, and engineering large-scale inter-office networking. Currently, I specialize in exposing large-scale corporate APIs using Azure APIM, Logic Apps, OpenResty/NGINX, Lua, and Python.
 
-Born in 1973 in Versailles, France by Swedish and Norwegian parents. Have lived in Belgium, were fluent in Vlaams (spoken language in Belgium) and then later family moved to Sweden and I forgot the language, I can still tell the difference between Dutch and Vlaams, I have always had an ear for languages and learnt (and forgotten) bits and pieces of both Finnish and Spanish. For fun I started out to learn Mandarin and Russian but never completed because life. Norwegian has always been close and I understand really difficult northern dialects. My wife is Thai and speaks Thai with our son, I think I need to learn Thai as well.
-
-Swedish citizen since 1983, before that Norwegian citizen, completed 10 months of Swedish military duty in 1993 with above average grades.
-
-Ever since the first computer arrived in the family home back in 1986, I have been coding, programming and exploring computers, BBS’s, the internets, tinkering with both software and hardware. Programming since the first day, many programming languages, dialects and technologies has been explored.
-
-Met girlfriend in 2012, who later in 2014 became wife.
-
-Our son was born in 2013, a new aspect of life begun.
-
-In 2015 our small family moved from Eskilstuna to Västerås.
-
-Since 2014 and forward, I work as an System Integration Consultant and I think I have found my call in life, transform and shovel data back and forth. On current assignment I work with exposing services on a big scale corporate-wide API, using Azure APIM, Logic Apps, OpenResty/Nginx and Lua/Python.

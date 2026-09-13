@@ -1,0 +1,7 @@
+# fediverse.txt
+
+mastodon.social: https://mastodon.social/@cisene
+podcastindex.social: https://podcastindex.social/@cisene
+
+pixelfed.social: https://pixelfed.social/@cisene
+loops.video: https://loops.video/@cisene

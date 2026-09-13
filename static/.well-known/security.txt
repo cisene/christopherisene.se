@@ -1,0 +1,9 @@
+# security.txt
+# Generated using Security.txt Generator
+
+Contact: mailto:christopher.isene@gmail.com
+Expires: 2029-12-31T23:59
+Encryption: https://keybase.io/cisene/pgp_keys.asc
+Preferred-Languages: en, sv
+Canonical: https://christopherisene.se/.well-known/security.txt
+

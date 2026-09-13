@@ -1,0 +1,85 @@
+[
+    {
+        "grouping": "Architecture",
+        "skills": [
+            "IP Networking",
+            "DNS",
+            "Firewalls",
+            "Load Balancing",
+            "Microservices",
+            "RESTful APIs",
+            "SaaS/PaaS/IaaS"
+        ]
+    },
+    {
+        "grouping": "Languages, Operating Systems & Tools",
+        "skills": [
+            "Java",
+            "Python",
+            "git",
+            "subversion",
+            "linux",
+            "bash",
+            "php",
+            "jquery",
+            "javascript"
+        ]
+    },
+    {
+        "grouping": "Platform Development & Administration",
+        "skills": [
+            "Atlassian",
+            "Bamboo",
+            "Bitbucket",
+            "NGINX",
+            "MySQL",
+            "Wordpress"
+        ]
+    },
+    {
+        "grouping": "Data Management",
+        "skills": [
+            {
+                "icon": "msql_server",
+                "name": "Microsoft SQL Server"
+            },
+            {
+                "icon": "database",
+                "name": "Oracle"
+            },
+            {
+                "icon": "mongodb",
+                "name": "MongoDB"
+            },
+            {
+                "icon": "apache-spark",
+                "name": "Apache Spark"
+            }
+        ]
+    },
+    {
+        "grouping": "Containers & Cloud",
+        "skills": [
+            {
+                "link": "https://bosh.io",
+                "name": "BOSH"
+            },
+            {
+                "link": "https://docker.com",
+                "name": "Docker"
+            },
+            {
+                "link": "https://aws.amazon.com",
+                "name": "AWS"
+            },
+            {
+                "link": "https://cloud.google.com",
+                "name": "Google Cloud"
+            },
+            {
+                "link": "https://bosh.io",
+                "name": "Linux"
+            }
+        ]
+    }
+]
