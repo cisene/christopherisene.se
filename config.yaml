@@ -17,19 +17,19 @@ menus:
       url: "/"
       weight: 10
     - name: Contact
-      url: "/contact/"
+      url: "/contact"
       weight: 20
     - name: Projects
-      url: "/projects/"
+      url: "/projects"
       weight: 30
     - name: Current and past
-      url: "/current-and-past/"
+      url: "/current-and-past"
       weight: 40
     - name: Skills
-      url: "/skills/"
+      url: "/skills"
       weight: 50
     - name: Travels
-      url: "/travels/"
+      url: "/travels"
       weight: 60
 
 params:
