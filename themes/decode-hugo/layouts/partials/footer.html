@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="social-links">
+    {{ range .Site.Params.handles }}
+      {{- if and .link (hasPrefix .link "http") -}}
+      <a href="{{ .link }}" target="_blank" rel="noopener" title="{{ .title }}">{{ .name }}</a>
+      {{- end -}}
+      {{- if and .id -}}
+      <span title="{{ .title }}">{{ .id }} @ {{ .name }}</span>
+      {{- end -}}
+    {{ end }}
+  </div>
+</footer>

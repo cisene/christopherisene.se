@@ -1,0 +1,12 @@
+<header class="site-header">
+  <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+  <nav class="main-navigation">
+    <ul>
+      <li><a href="/">Home</a></li>
+      {{ range sort (.Site.RegularPages) "Weight" "asc" }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+</header>

@@ -1,0 +1,8 @@
+name = "Decode Hugo"
+license = "MIT"
+description = "A minimalist responsive Hugo port of the WordPress Decode theme."
+homepage = "https://christopherisene.se/"
+tags = ["minimal", "clean", "responsive"]
+
+[author]
+  name = "Christopher Isene"

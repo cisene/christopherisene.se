@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}",
+  "givenName": "{{ .Site.Params.firstName }}",
+  "familyName": "{{ .Site.Params.lastName }}",
+  "email": "{{ .Site.Params.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ .Site.Params.addressLocality }}",
+    "addressCountry": "{{ .Site.Params.addressCountry }}"
+  },
+  "homeLocation": "{{ .Site.Params.homeLocation }}",
+  "workLocation": "{{ .Site.Params.workLocation }}",
+  "nationality": "{{ .Site.Params.nationality }}",
+  "hasOccupation": "{{ .Site.Params.hasOccupation }}",
+  "jobTitle": "System Integration Consultant",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Consulting / Corporate API Services"
+  },
+  "url": "{{ .Site.BaseURL }}",
+  "affiliation": [
+    {{- $affs := .Site.Params.affiliation -}}
+    {{- $len := len $affs -}}
+    {{- range $index, $element := $affs -}}
+      {{- if and .url (hasPrefix .url "http") -}}
+        "{{ .url }}"{{ if lt (add $index 1) $len }},{{ end }}
+      {{- end -}}
+    {{- end -}}
+  ],
+  "sameAs": [
+    {{- $handles := .Site.Params.handles -}}
+    {{- $len := len $handles -}}
+    {{- range $index, $element := $handles -}}
+      {{- if and .link (hasPrefix .link "http") -}}
+        "{{ .link }}"{{ if lt (add $index 1) $len }},{{ end }}
+      {{- end -}}
+    {{- end -}}
+  ]
+}
+</script>
