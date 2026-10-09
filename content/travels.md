@@ -1,14 +1,14 @@
 ---
-title: Travels
-date: 2026-09-13T19:58:43+01:00
+title: "Travels"
+date: 2026-10-09T13:05:55+01:00
+params:
+  author: "Christopher Isene"
 draft: false
-tags: [about]
-sitemap:
-  priority : 1.0
-
-outputs:
-- html
+type: "page"
+url: "/travels"
 ---
+
+# Travels
 
 I enjoy traveling and experiencing other cultures, cousines and ways of life.
 I will try to list and summarize the countries I've been to and also list the ones I want to visit.
@@ -35,7 +35,7 @@ I will try to list and summarize the countries I've been to and also list the on
 * Austria, I was there when I was a child.
 * Luxemburg, I was there when I was a child.
 * France, I was born there and were living there for the first 1.5 years of my life, visited last when I was a little boy and have not considered visiting again.
-
+---
 
 
 There are countries I have heard lots of good things about and I have listed them without any order
@@ -52,7 +52,7 @@ There are countries I have heard lots of good things about and I have listed the
 * Philippines, culture, food and people, heaps of friends.
 * Mexico, culture, food and people.
 * Cuba, culture, food and people.
-
+---
 
 
 
@@ -66,7 +66,7 @@ There are a few countries I will not travel to nor set foot on, because reasons.
 * Iran, would be interesting with another regime.
 * Israel, nope.
 * USA, not with current administration. Hard no.
-
+---
 
 
 
@@ -94,8 +94,10 @@ For the nerdiness in me, here is airports I have visited or set foot on.
 * SBP, San Luis Obispo, USA
 * SFO, San Francisco, USA
 * TXL, Berlin Tegel, Germany
+* UME, Umeå, Sweden
 * UTP, U-Tapao, Rayong, Thailand
-
+* VBY, Visby, Sweden
+---
 
 
 As you may have noticed, there is a few blank spots here and there .. and that South America and Africa is missing, I have not been there. It would be interesting to visit countries in Africa and South America but I have yet to find inspiration going there. Maybe I will, maybe I won't.

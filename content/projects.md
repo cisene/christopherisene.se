@@ -1,13 +1,11 @@
 ---
-title: Projects
-date: 2026-09-13T19:58:43+01:00
+title: "Projects"
+date: 2026-10-09T12:21:06+01:00
+params:
+  author: "Christopher Isene"
 draft: false
-tags: [about]
-sitemap:
-  priority : 1.0
-
-outputs:
-- html
+type: "page"
+url: "/projects"
 ---
 
 I always have stuff going on, working on thousand things at once ..
@@ -22,6 +20,8 @@ Some of them here;
   * [PodcastIndex themed OPML](https://b19.se/data/opml/podcastindex/)
 
 * [Swish-katalogen](https://b19.se/swish-katalogen/)
+* [Vox](https://vox.b19.se/)
 
 
-.. there is more at my [Github](https://github.com/cisene)
+.. there is more at my [Github](https://github.com/cisene) and [Codeberg](https://codeberg.org/cisene)
+

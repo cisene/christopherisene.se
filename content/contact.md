@@ -1,14 +1,14 @@
 ---
-title: Contact
-date: 2026-09-13T21:52:16+01:00
+title: "Contact"
+date: 2026-10-09T13:04:08+01:00
+params:
+  author: "Christopher Isene"
 draft: false
-tags: [about]
-sitemap:
-  priority : 1.0
-
-outputs:
-- html
+type: "page"
+url: "/contact"
 ---
+
+# Contact
 
 There is several ways to contact me, but be sure it is for the right reason.
 
@@ -18,10 +18,11 @@ Phone call is the least preferred method, it is invasive and are stealing time u
 
 If you are a recruiter, please, do not call. I&#8217;m generally not interested in what is offered. If you still feel that you absolutely need to reach me, send me an email. Thank you.
 
+---
 
 ## My social media accounts
 
-Email: [christopher.isene@gmail.com](mailto:christopher.isene@gmail.com rel="me")
+Email: [christopher.isene@gmail.com](mailto:christopher.isene@gmail.com)
 
 Last.fm: [Christopher Isene](https://last.fm/user/kakbit)
 
@@ -53,14 +54,14 @@ Matrix.org: @cisene:matrix.org
 
 Stellar Account Id: GBOWKT3UQUKIBG6OQO73FPN5HAA7FJLGCJI5DSMKPYFCJLY4I7ZQRAPJ
 
-Session: [0589d02b0c144dd175313d2271d817695d83c759f386362ccbb0be4fdc1237c13e](session://0589d02b0c144dd175313d2271d817695d83c759f386362ccbb0be4fdc1237c13e)
-
 Signal Messenger: cisene.99
 
 Threema: [cisene](https://threema.id/Z72CCN9P)
 
 Line: [cisene](https://line.me/ti/p/93RGZ_RSIZ)
 
+
+---
 
 ## Removed social media
 
