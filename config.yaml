@@ -1,0 +1,122 @@
+title: Christopher Isene
+baseURL: https://christopherisene.se/
+theme: decode-hugo
+languageCode: en-us
+
+taxonomies: {}
+
+uglyURLs: true  # This removes the trailing slashes and outputs standard clean page files
+canonifyURLs: true
+
+sitemap:
+  changeFreq: monthly
+
+menus:
+  main:
+    - name: Home
+      url: "/"
+      weight: 10
+    - name: Contact
+      url: "/contact/"
+      weight: 20
+    - name: Projects
+      url: "/projects/"
+      weight: 30
+    - name: Current and past
+      url: "/current-and-past/"
+      weight: 40
+    - name: Skills
+      url: "/skills/"
+      weight: 50
+    - name: Travels
+      url: "/travels/"
+      weight: 60
+
+params:
+  lastName: Isene
+  firstName: Christopher
+  email: christopher.isene@gmail.com
+  addressLocality: Västerås
+  homeLocation: Västerås
+  workLocation: Västerås
+  addressCountry: Sweden
+  nationality: Swedish
+  countryShort: SE
+  languageCode: en-us
+  description: My home on the intarwebs
+  profileImage: ""
+  favicon: favicon.ico
+  hasOccupation: System developer
+
+  affiliation:
+    - name: PodcastIndex.org
+      url: https://podcastindex.org/
+
+  knowsAbout: []
+  knowsLanguage:
+    - Swedish
+    - Norwegian
+    - English
+
+  showQr: false
+  showContact: true
+  showBoards: false
+  showCertifications: false
+  showSocializations: true
+
+  sections:
+    - contact
+    - current-and-past
+    - projects
+    - skills
+    - travels
+
+  vcardfields:
+    - name
+    - image
+    - org
+    - email
+    - workemail
+    - phone
+    - url
+    - title
+
+  handles:
+    - name: B19.se
+      link: https://b19.se/
+      title: B19 is where I host my projects
+
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/christopherisene/
+      title: My profile on LinkedIn
+      icon: linkedin
+
+    - name: Keybase
+      link: https://keybase.io/cisene
+      title: My profile on Keybase
+      icon: keybase
+
+    - name: Signal
+      id: cisene.99
+      title: My handle on Signal
+      icon: signal-messenger
+
+outputs:
+  home:
+    - HTML
+  page:
+    - HTML
+  section:
+    - HTML
+
+mediaTypes:
+  text/vcard:
+    suffixes:
+      - vcf
+
+outputFormats:
+  VCard:
+    mediaType: text/vcard
+    baseName: contact
+    isPlainText: true
+    notAlternative: true
